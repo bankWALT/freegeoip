@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Free IP geolocation HTTP API">
 <meta name="author" content="Alexandre Fiori">
-<title>morpheus-geoip</title>
+<title>rq4</title>
 <link href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.0/paper/bootstrap.min.css" rel="stylesheet">
 <style>
 body{
@@ -181,7 +181,7 @@ angular.module("freegeoip", [function($locationProvider) {
 
 	<p>The HTTP API takes GET requests in the following schema:</p>
 
-	<pre>freegeoip.net/{format}/{IP_or_hostname}</pre>
+	<pre>rq4.herokuapp.com/{format}/{IP_or_hostname}</pre>
 
 	<p>
 	Supported formats are:
@@ -200,17 +200,17 @@ angular.module("freegeoip", [function($locationProvider) {
 
 		<div class="col-sm-4">
 			<h5>CSV</h5>
-			<pre>morpheus-geoip.herokuapp.com/csv/8.8.8.8</pre>
+			<pre>rq4.herokuapp.com/csv/8.8.8.8</pre>
 		</div>
 
 		<div class="col-sm-4">
 			<h5>XML</h5>
-			<pre>morpheus-geoip.herokuapp.com/xml/4.2.2.2</pre>
+			<pre>rq4.herokuapp.com/xml/4.2.2.2</pre>
 		</div>
 
 		<div class="col-sm-4">
 			<h5>JSON</h5>
-			<pre>morpheus-geoip.herokuapp.com/json/github.com</pre>
+			<pre>rq4.herokuapp.com/json/github.com</pre>
 			Make it
 			<a href="http://en.wikipedia.org/wiki/JSONP" target="_blank">JSONP</a>
 			by adding the <i>callback</i> argument to the request.
